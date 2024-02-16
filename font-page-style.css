@@ -1,0 +1,11 @@
+body{
+    background-color:bisque;
+}
+#introAnim{
+    width: 80%;
+    background-color: blueviolet;
+    height: 12%;
+    align-self: center;
+    margin: auto;
+    font-weight: bold;
+}
