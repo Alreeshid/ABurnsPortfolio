@@ -1,11 +1,59 @@
-body{
-    background-color:bisque;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#introAnim{
-    width: 80%;
-    background-color: blueviolet;
-    height: 12%;
-    align-self: center;
-    margin: auto;
-    font-weight: bold;
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.hero {
+    background-color: #007bff; /* Vibrant blue; adjust as needed */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Large, readable text */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px; /* Ensures text doesn't span too wide on larger screens */
+    margin: auto; /* Centers the text block */
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem; /* Slightly smaller on mobile devices */
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
 }
