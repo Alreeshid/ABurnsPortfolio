@@ -9,7 +9,14 @@ window.onscroll = (e) => {
     window.pageYOffset > 50 && console.log("do smh");
 }
 
-anime({
-    targets: '#home',
-    translateX: 100
-});
+let animation = anime({
+    targets: 'div',
+    // Properties 
+    translateX: 100,
+    borderRadius: 50,
+    // Property Parameters
+    duration: 2000,
+    easing: 'linear',
+    // Animation Parameters
+    direction: 'alternate'
+  });  
