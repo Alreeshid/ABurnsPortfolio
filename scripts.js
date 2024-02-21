@@ -1,5 +1,5 @@
 
-const anime = require('animejs');
+//const anime = require('animejs');
 //Collection of general scripts
 
 //experiment, animates based on how much the user has scrolled.
