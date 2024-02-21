@@ -1,4 +1,4 @@
-import anime from 'anime-master/lib/anime.es.js';
+//import anime from 'anime-master/lib/anime.es.js';
 const anime = require('animejs');
 //Collection of general scripts
 
