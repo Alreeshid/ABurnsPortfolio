@@ -10,7 +10,7 @@ window.onscroll = (e) => {
 }
 
 let animation = anime({
-    targets: 'div',
+    targets: '#hero',
     // Properties 
     translateX: 100,
     borderRadius: 50,
