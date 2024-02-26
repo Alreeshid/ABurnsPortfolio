@@ -9,8 +9,8 @@ window.onscroll = (e) => {
     window.pageYOffset > 50 && console.log("do smh");
 }
 
-let animation = anime({
-    targets: '#hero',
+let introAnimation = anime({
+    targets: '.hero',
     // Properties 
     translateX: 100,
     borderRadius: 50,
@@ -19,4 +19,5 @@ let animation = anime({
     easing: 'linear',
     // Animation Parameters
     direction: 'alternate'
+    //later have this reveal my professional snapshot
   });  
